@@ -6,6 +6,7 @@ import { StyleSheet, View} from 'react-native';
 import AppCard from './app/components/AppCard';
 import ListingDetailsScreen from './app/screens/ListingDetailsScreen';
 import ViewImageScreen from './app/screens/ViewImageScreen';
+import MessageScreen from './app/screens/MessagesScreen';
 
 
 
@@ -24,9 +25,7 @@ export default function App()   {
    </View>
    */
 
-   <View>
-     <ViewImageScreen></ViewImageScreen>
-   </View>
+     <MessageScreen />
     
   );
 }
